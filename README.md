@@ -2,4 +2,22 @@
 
 The package provides a eslint's extensible shared config, be use for that project base on webpack & vue.
 
-for core rules details, see: http://eslint.org/docs/rules/
+# Install
+
+``` bash
+npm install eslint-config-standard --save-dev
+```
+
+# Usage
+
+add this to your .eslintrc file:
+
+``` json
+{
+  "extends": "standard"
+}
+```
+
+# Learn more
+
+[core rules details](http://eslint.org/docs/rules/)

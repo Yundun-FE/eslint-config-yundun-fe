@@ -14,7 +14,7 @@ add this to your .eslintrc file:
 
 ``` javascript
 {
-  "extends": "standard",
+  "extends": "eslint-config-yundun-fe",
   "rules": {
   // rules...
   }

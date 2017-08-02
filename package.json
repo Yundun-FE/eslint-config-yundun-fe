@@ -1,8 +1,11 @@
 {
   "name": "eslint-config-yundun-fe",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "index.js",
-  "repository": "git@github.com:Yundun-FE/eslint-config-yundun-fe.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Yundun-FE/eslint-config-yundun-fe.git"
+  },
   "author": "AlenQi <alenqimail@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
@@ -10,5 +13,14 @@
     "babel-eslint": "^7.1.1",
     "eslint-plugin-html": "^2.0.1",
     "eslint-plugin-import": "^2.2.0"
-  }
+  },
+  "description": "The package provides a eslint's extensible shared config, be use for that project base on webpack & vue.",
+  "bugs": {
+    "url": "https://github.com/Yundun-FE/eslint-config-yundun-fe/issues"
+  },
+  "homepage": "https://github.com/Yundun-FE/eslint-config-yundun-fe#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["eslint", "yundun"]
 }

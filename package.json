@@ -1,0 +1,14 @@
+{
+  "name": "eslint-config-yundun-fe",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:Yundun-FE/eslint-config-yundun-fe.git",
+  "author": "AlenQi <alenqimail@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^3.17.0",
+    "babel-eslint": "^7.1.1",
+    "eslint-plugin-html": "^2.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}

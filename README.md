@@ -1,6 +1,6 @@
 # eslint-config-yundun-fe
 
-The package provides a eslint's extensible shared config, be use for that project base on webpack & vue.
+ESLint shareable config for the Yundun-FE JavaScript style guide, be use for that project base on webpack & vue.
 
 # Install
 
@@ -12,9 +12,12 @@ npm install eslint-config-standard --save-dev
 
 add this to your .eslintrc file:
 
-``` json
+``` javascript
 {
-  "extends": "standard"
+  "extends": "standard",
+  "rules": {
+  // rules...
+  }
 }
 ```
 

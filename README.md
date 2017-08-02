@@ -5,7 +5,7 @@ ESLint shareable config for the Yundun-FE JavaScript style guide, be use for tha
 # Install
 
 ``` bash
-npm install eslint-config-standard --save-dev
+npm install eslint-config-yundun-fe --save-dev
 ```
 
 # Usage
